@@ -1,0 +1,51 @@
+.two-pointers-container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f6f8fa;
+}
+
+.header-section {
+    background-color: white;
+    padding: 2rem;
+    border-bottom: 1px solid #e1e4e8;
+    margin-bottom: 2rem;
+}
+
+.overall-progress {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.progress-stats {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.progress-count {
+    font-weight: bold;
+    color: #24292e;
+}
+
+.progress-percentage {
+    color: #586069;
+}
+
+.overall-progress-bar {
+    height: 8px;
+    background-color: #eee;
+    border-radius: 4px;
+}
+
+.overall-progress-bar .progress-fill {
+    height: 100%;
+    background-color: #2ea44f;
+    border-radius: 4px;
+    transition: width 0.3s ease;
+}
+
+.categories {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
