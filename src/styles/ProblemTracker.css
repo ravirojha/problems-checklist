@@ -53,14 +53,19 @@
 .problem-item {
     display: flex;
     align-items: center;
-    gap: 0.5rem;
-    padding: 0.5rem 0;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid #e1e4e8;
+}
+
+.problem-item:last-child {
+    border-bottom: none;
 }
 
 .problem-item a {
     color: #0366d6;
     text-decoration: none;
     flex: 1;
+    margin-left: 0.5rem;
 }
 
 .problem-item a:hover {
@@ -69,9 +74,12 @@
 
 /* Custom checkbox styles */
 .checkbox-container {
-    display: block;
+    display: flex;
+    align-items: center;
     position: relative;
-    padding-left: 25px;
+    min-width: 24px;
+    height: 24px;
+    margin: 0;
     cursor: pointer;
     user-select: none;
 }
@@ -86,7 +94,7 @@
 
 .checkmark {
     position: absolute;
-    top: 0;
+    top: 3px;
     left: 0;
     height: 18px;
     width: 18px;
