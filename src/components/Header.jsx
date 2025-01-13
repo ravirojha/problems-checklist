@@ -15,6 +15,8 @@ const Header = () => {
                 return 'Graph';
             case '/two-pointers':
                 return 'Two Pointers';
+            case '/array':
+                return 'Array';
             default:
                 return '';
         }

@@ -13,5 +13,10 @@ export const pages = [
         title: "Two Pointers",
         path: "/two-pointers",
         description: "Collection of Two Pointers problems sorted by categories"
+    },
+    {
+        title: "Array",
+        path: "/array",
+        description: "Collection of Array problems sorted by categories"
     }
 ]; 

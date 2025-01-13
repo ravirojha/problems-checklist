@@ -4,6 +4,7 @@ import { twoPointerCategories } from '../data/twoPointerProblems';
 import { pages } from '../data/pages';
 import CategoryCard from '../components/CategoryCard';
 import '../styles/Home.css';
+import { arrayCategories } from "../data/arrayProblems";
 
 const getCategoryProblems = (type) => {
     switch (type) {
@@ -13,6 +14,8 @@ const getCategoryProblems = (type) => {
             return graphCategories;
         case 'two-pointers':
             return twoPointerCategories;
+        case 'array':
+            return arrayCategories;
         default:
             return [];
     }

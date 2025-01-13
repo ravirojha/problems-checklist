@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import DynamicProgramming from './pages/DynamicProgramming';
 import Graph from './pages/Graph';
 import TwoPointers from './pages/TwoPointers';
+import Array from './pages/Array';
 import Home from './pages/Home';
 import Header from './components/Header';
 import GithubCorner from './components/GithubCorner';
@@ -17,6 +18,7 @@ function App() {
           <Route path="/dp" element={<DynamicProgramming />} />
           <Route path="/graph" element={<Graph />} />
           <Route path="/two-pointers" element={<TwoPointers />} />
+          <Route path="/array" element={<Array />} />
         </Routes>
         <GithubCorner />
       </div>
